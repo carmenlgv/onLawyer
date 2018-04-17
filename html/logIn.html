@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>onLawyer | Login </title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="icon" type="image/png" href="../assets/icon.png">
+  <script type="text/javascript" src="../js/main.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="../assets/logo.png">
+    </a>
+
+    <nav class="header-menu">
+      <a href="./buscar.html" class="header-link">Buscar</a>
+      <a href="./logIn.html" class="header-link">Login</a>
+      <a href="./registro.html" class="header-link">Registro</a>
+    </nav>
+  </header>
+
+  <section class="login">
+
+    <form id="login-form" class="landing2" method="post" onsubmit="return login()">
+      <label class="label" for="email">Correo electrónico:</label>
+      <input class="input" type="email" name="email" id="email" placeholder="tu@ejemplo.com">
+      <label class="label" for="Contraseña">Contraseña:</label>
+      <input class="input" type="text" name="Contraseña" id="Contraseña" placeholder="Contraseña">
+      <button type="submit" class="login-button" >Iniciar sesión</button>
+      <a href="recuperarContraseña.html" class="recoverpass">
+     </br>  Recuperar Contraseña
+     </a>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="copyright">
+      Copyright © 2018 onLawyer
+    </div>
+  </footer>
+</body>
+
+</html>

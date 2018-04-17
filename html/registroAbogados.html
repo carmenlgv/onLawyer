@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Registro Abogados</title>
+  <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" type="image/png" href="../assets/icon.png">
+      <script type="text/javascript" src="../js/main.js"></script>
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="../assets/logo.png">
+    </a>
+
+    <nav class="header-menu">
+      <a href="./buscar.html" class="header-link">Buscar</a>
+      <a href="./logIn.html" class="header-link">Login</a>
+      <a href="./registro.html" class="header-link">Registro</a>
+    </nav>
+  </header>
+
+  <section class="login">
+      <form id="signup-form" class="landing2" method="post" onsubmit="return registro()">
+    <label class="label" for="Nombre">Nombre:</label>
+    <input class="input" type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+    <label class="label" for="Apellido">Apellidos:</label>
+    <input class="input" type="text" name="Apellido" id="Apellido" placeholder="Apellidos">
+    <label class="label" for="email">Correo electrónico:</label>
+    <input class="input" type="email" name="email" id="email" placeholder="tu@ejemplo.com">
+    <label class="label" for="Contraseña">Contraseña:</label>
+    <input class="input" type="text" name="Contraseña" id="Contraseña" placeholder="Contraseña">
+    <label class="label" for="Contraseña2">Confirme la contraseña:</label>
+    <input class="input" type="text" name="Contraseña2" id="Contraseña2" placeholder="Confirme la contraseña">
+<fieldset>
+    <legend class="label">Género</legend>
+    <input class="input" type="radio" name="sex" id="genero" value="f">
+    <label class="label" for="fem">Femenino</label></br>
+    <input class="input" type="radio" name="sex" id="genero" value="m">
+    <label class="label" for="male">Masculino</label>
+    </fieldset>
+
+    <label class="label" for="Ubic">Ubicación</label>
+    <input class="input" type="text" name="pais" id="pais" placeholder="País">
+    <input class="input" type="text" name="estado" id="estado" placeholder="Estado">
+    <input class="input" type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+    <label class="label" for="fechaNac">Fecha de Nacimiento</label>
+    <input class="input" type="date" name="fechaNac" id="fechaNac">
+
+    <fieldset>
+      <legend class="label">Especialidad</legend>
+      <input type="radio" name="area" id="kind" value="penal">
+      <label class="label" for="type">Penal</label>
+      <input type="radio" name="area" id="kind" value="familiar">
+      <label class="label" for="type">Familiar</label>
+      <input type="radio" name="area" id="kind" value="laboral">
+      <label class="label" for="type">Laboral</label>
+      <input type="radio" name="area" id="kind" value="civil">
+      <label class="label" for="type">Civil</label></br>
+      <input type="radio" name="area" id="kind" value="mercantil">
+      <label class="label" for="type">Mercantil</label>
+      <input type="radio" name="area" id="kind" value="Empresarial">
+      <label class="label" for="type">Empresarial</label>
+      <input type="radio" name="area" id="kind" value="fiscal">
+      <label class="label" for="type">Fiscal</label>
+    </fieldset>
+        <a href=""> <button class="recoverpass" type="submit" name="button">Registrarse</button></a>
+
+        </form>
+  </section>
+  <footer class="footer">
+    <div class="copyright">
+      Copyright © 2018 onLawyer
+    </div>
+  </footer>
+</body>
+
+</html>
